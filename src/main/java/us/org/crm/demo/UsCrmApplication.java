@@ -24,7 +24,7 @@ public class UsCrmApplication  implements CommandLineRunner {
 
     public void run(String... args) throws Exception {
         for (int i = 0; i <20 ; i++) {
-            customerRepo.save(new Customer(null ,"HPS"+i , false,"HPS@gmail.com","06254158","RES lo 69 CASA","CASA",""));
+            customerRepo.save(new Customer(null ,"HPS"+i , false,"HPS@gmail.com","06254158","06254158","RES lo 69 CASA","CASA",""));
         }
 
     }

@@ -19,6 +19,7 @@ public class Customer implements Serializable {
  private  boolean dealer;
  private  String email;
  private  String phone;
+ private  String fax;
  private  String address;
  private  String city;
  private  String logo;

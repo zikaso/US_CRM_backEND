@@ -13,4 +13,5 @@ public interface CustomerRepo extends JpaRepository<Customer ,Long>{
 
     @RestResource(path = "/bycity")
     Page<Customer> findBycityContainingIgnoreCase(String city ,Pageable pageable);
+
 }
